@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    padding: 20px 0;
+}
+.inner-wraper {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.logo { 
+    background-color: #E2E2E2; 
+    border-radius: 8px; 
+    height: 60px; 
+    width: 200px;   
+}
+.menu { 
+    background-color: #E2E2E2;
+    border-radius: 8px; 
+    height: 34px; 
+    width: 820px; 
+}
+.button { 
+    background-color: #E2E2E2; 
+    border-radius: 8px; 
+    height: 42px; 
+    width: 120px; 
+}
+
+.section1 {
+    background-color: #f1f1f1;
+    padding: 0;
+}
+.container {
+    width: 95%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.box-section1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #f1f1f1;
+    height: 680px; */
+    gap: 30px;
+    padding: 80px 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+.content {
+    background-color: #E2E2E2; 
+    height: 267px; 
+    width: 585px;
+    border-radius: 8px; 
+    font-family: "Be Vietnam Pro", sans-serif;
+}
+.image {
+    background-color: #E2E2E2; 
+    border-radius: 8px; 
+    height: 520px; 
+    width: 585px; 
+    font-family: "Be Vietnam Pro", sans-serif;
+}
+
+
+.section2 {
+    background-color: white;
+    padding: 80px 0;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 8px;
+    font-family: "Be Vietnam Pro", sans-serif;
+}
+.box-title {
+    margin: 0 auto 40px auto;
+    height: 80px;
+    width: 600px;
+    background-color: #e2e2e2;
+}
+.inner-wraper1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-bottom: 40px;
+}
+.item1 {
+    width: calc((100% - 60px) / 3);
+    height:420px;  
+}
+
+
+.section3 {
+    background-color: #f1f1f1;
+    padding: 80px 0;
+}
+.box-title1 {
+    margin: 0 auto 40px auto;
+    height: 80px;
+    width: 600px;
+    background-color: #e2e2e2;
+}
+.inner {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+}
+.item2 {
+    width: calc((100% - 120px) / 5);
+    height: 300px; 
+    background-color: #E2E2E2;
+}
+
+.section4 {
+    background-color: white;
+    padding: 80px 0;
+}
+.box-title2 {
+    margin: 0 auto 40px auto;
+    height: 80px;
+    width: 600px;
+    background-color: #e2e2e2;
+}
+.item3 {
+    width: calc((100% - 90px) / 4);
+    height: 300px; 
+    background-color: #E2E2E2;
+}
+.footer { 
+    height: 72px;
+    background-color: #d9d9d9;
+    width: 100%;
+} 
